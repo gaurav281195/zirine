@@ -27,7 +27,7 @@
         		<span class="icon-bar"></span>
         		<span class="icon-bar"></span> 
       		</button>
-      		<a class="navbar-brand" href="#">Logo</a>
+      		<a class="navbar-brand" href="#myPage">Logo</a>
       	</div>
       	<div class="collapse navbar-collapse" id="myNavbar">
 
@@ -39,7 +39,7 @@
         <li><a href="#contact">CONTACT</a></li>
     	</ul>
         <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"> LOGIN</a></li>
+        <li><a href="#login.php"> LOGIN</a></li>
         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> SIGN UP</a></li>
 
       </ul>
@@ -47,15 +47,46 @@
   </div>
 </nav>
 
-<div class="jumbotron text-center">
-	<h1>Ideation </h1>
-	<p>WHERE IDEAS GENERATE</p>
+<div id="myCarousel1" class="carousel slide" data-ride="carousel">
+     <!-- Indicators -->
+<!--      <ol class="carousel-indicators1">
+      <li data-target="#myCarousel1" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel1" data-slide-to="1"></li>
+    </ol>
+ -->
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+      	<div class="jumbotron text-center">
+			<h1>Ideation </h1>
+			<p>WHERE IDEAS GENERATE</p>
+			<form class="form-inline">
+				<input type="email" class="form-control" size="50" placeholder="Email Address">
+				<button type="button" class="btn btn-danger">Subscribe</button>
+			</form>
+		</div>
+	  </div>
+     <div class="item">
+      	<div class="jumbotron text-center">
+        <h3>Get to know from 1000+ peeps from more than 100 countries via sharing and Discussing Ideas.</h3>
+        <br><p>Sign Up for free</p>
+        <button type="button" class="btn btn-danger">Sign Up</button> 
+      </div>
+  	</div>
+  </div>
 
-	<form class="form-inline">
-		<input type="email" class="form-control" size="50" placeholder="Email Address">
-		<button type="button" class="btn btn-danger">Subscribe</button>
-	</form>
-</div>
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+
 
 <!-- Container Section -->
 
@@ -130,12 +161,12 @@
 
 <div id="portfolio" class="container-fluid text-center bg-grey">
   <h2>What People say</h2>
-  <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+  <div id="myCarousel2" class="carousel slide text-center" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel2" data-slide-to="1"></li>
+      <li data-target="#myCarousel2" data-slide-to="2"></li>
     </ol>
 
     <!-- Wrapper for slides -->
@@ -152,11 +183,11 @@
     </div>
 
     <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <a class="left carousel-control" href="#myCarousel2" role="button" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
     </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <a class="right carousel-control" href="#myCarousel2" role="button" data-slide="next">
       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
@@ -192,10 +223,30 @@
   </div>
 </div>
 
-<footer class="container-fluid text-center">
+<footer class="container-fluid text-center bg-grey">
+
 	<a href="#myPage" title="To Top">
 		<span class="glyphicon glyphicon-chevron-up"></span>
 	</a>
+	<br>
+	<p> © 2016 Ideation.
+		<br>
+		 <a href="http://teamtreehouse.com/terms">Terms</a> •
+      <a href="http://teamtreehouse.com/privacy">Privacy</a>•
+      <a href="http://teamtreehouse.com/support">Contact</a>
+    </p>
+
+    <!-- <ul class="social">
+      <li><a href="http://twitter.com" class="twitter"></a></li>
+      <li><a href="http://youtube.com" class="youtube"></a></li>
+      <li><a href="http://facebook.com" class="facebook"></a></li>
+      <li><a href="http://plus.google.com" class="google-plus"></a></li>
+      <li><a href="http://linkedin.com" class="linkedin"></a></li>
+      <li><a href="http://instagram.com" class="instagram"></a></li>
+    </ul>
+
+ -->
+
 </footer>
 
 
